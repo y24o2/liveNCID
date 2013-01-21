@@ -13,7 +13,7 @@ import os
 import time
 
 def incomingCall(call):
-  nmbr = re.search(r"(NMBR\*)([\w]*)(\*)", call).group(2)
+	nmbr = re.search(r"(NMBR\*)([\w]*)(\*)", call).group(2)
 	return nmbr
 
 def main():
